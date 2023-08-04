@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Include the base styles from Tailwind CSS */
+@tailwind base;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Include the component styles from Tailwind CSS */
+@tailwind components;
+
+/* Include the utility styles from Tailwind CSS */
+@tailwind utilities;
+
+/* Import the 'Lato' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* Global styles for the body element */
+body {
+  background-color: #000000; /* Set the background color of the body to black (#000000) */
+  font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use the 'Lato' font for the body text with fallback fonts */
+  margin: 0;
+  padding: 0;
+  color: red;
 }
