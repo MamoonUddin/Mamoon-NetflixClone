@@ -31,7 +31,7 @@ const Login = () => {
   };
 
   return (
-    <div className='w-full h-screen'>
+    <div className='relative w-full h-screen'>
       {/* Background image for the login page */}
       <img
         className='hidden sm:block absolute w-full h-full object-cover'
@@ -39,7 +39,7 @@ const Login = () => {
         alt='/'
       />
       {/* Semi-transparent overlay to darken the background image */}
-      <div className='bg-black/60 fixed top-0 left-0 w-full h-screen'></div>
+      <div className='absolute top-0 left-0 w-full h-screen bg-black/60 z-50'></div>
       <div className='fixed w-full px-4 py-24 z-50'>
         <div className='max-w-[450px] h-[600px] mx-auto bg-black/75 text-white'>
           <div className='max-w-[320px] mx-auto py-16'>
@@ -50,14 +50,14 @@ const Login = () => {
             <form onSubmit={handleSubmit} className='w-full flex flex-col py-4'>
               <input
                 onChange={(e) => setEmail(e.target.value)}
-                className='p-3 my-2 bg-gray-700 rouded'
+                className='p-3 my-2 bg-gray-700 rounded'
                 type='email'
                 placeholder='Email'
                 autoComplete='email'
               />
               <input
                 onChange={(e) => setPassword(e.target.value)}
-                className='p-3 my-2 bg-gray-700 rouded'
+                className='p-3 my-2 bg-gray-700 rounded'
                 type='password'
                 placeholder='Password'
                 autoComplete='current-password'
