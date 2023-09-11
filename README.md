@@ -68,16 +68,3 @@ No installation is required to use MMU Movies. Simply navigate to [https://mmu-m
 
    ![Read More Actor](/ReadMe%20Images/ReadMoreActor.jpeg)
 
-## Contributing
-
-If you'd like to contribute to MMU Movies, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with clear and concise commit messages.
-4. Push your changes to your fork.
-5. Create a pull request to merge your changes into the main repository.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
