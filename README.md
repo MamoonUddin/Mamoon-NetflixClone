@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# MMU Movies - Movie Search Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MMU Movies is a web application that allows you to search for movies and TV shows, view details about them, and explore information about the actors in the industry.
 
-## Available Scripts
+![MMU Movies Screenshot](/ReadMe%20Images/ShowCase.gif)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Signing In](#signing-in)
+  - [Searching for Movies and TV Shows](#searching-for-movies-and-tv-shows)
+  - [Exploring Actor Information](#exploring-actor-information)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Before you can use MMU Movies, ensure you have the following prerequisites:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A modern web browser (e.g., Chrome, Firefox, Safari)
+- An internet connection
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+No installation is required to use MMU Movies. Simply navigate to [https://mmu-movies.netlify.app/](https://mmu-movies.netlify.app/) to access the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Signing In
 
-### `npm run eject`
+1. Navigate to [https://mmu-movies.netlify.app/](https://mmu-movies.netlify.app/).
+2. Click on the "Sign In" button in the top right corner of the page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ![Click "Sign In"](/ReadMe%20Images/ClickSignIn.jpeg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. In the "Email" field, type "test@test.com" and press the "Tab" key.
+4. Type "password" in the password field.
+5. Click the "Sign In" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ![Click "Sign In"](/ReadMe%20Images/ClickSignInButton.jpeg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Searching for Movies and TV Shows
 
-## Learn More
+1. After signing in, click the search icon.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ![Click Search Icon](/ReadMe%20Images/ClickSearchIcon.jpeg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. In the "Search Movie" field, type the name of the movie or TV show you want to search for (e.g., "Shrek").
 
-### Code Splitting
+   ![Search for Movie](/ReadMe%20Images/SearchMovie.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. A list of search results will appear. Select a movie or TV show from the list to view more details.
 
-### Analyzing the Bundle Size
+   ![Search Results](/ReadMe%20Images/SearchResults.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Exploring Actor Information
 
-### Making a Progressive Web App
+1. From the movie or TV show details page, you can click on an actor's name to view more information about them.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ![Click Actor](/ReadMe%20Images/ClickActor.jpeg)
 
-### Advanced Configuration
+2. Check out the actor's profile for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ![Read More Actor](/ReadMe%20Images/ReadMoreActor.jpeg)
 
-### Deployment
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you'd like to contribute to MMU Movies, please follow these steps:
 
-### `npm run build` fails to minify
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear and concise commit messages.
+4. Push your changes to your fork.
+5. Create a pull request to merge your changes into the main repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
